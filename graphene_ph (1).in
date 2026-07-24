@@ -1,0 +1,12 @@
+&INPUTPH
+  outdir = './temp'
+  prefix = 'graphene'
+  tr2_ph = 1d-14
+  ldisp = .true.
+!  recover = .true.
+  nq1 = 1
+  nq2 = 1
+  nq3 = 1
+  fildyn = 'graphene_scf.dyn'
+  zeu = .false.
+/
